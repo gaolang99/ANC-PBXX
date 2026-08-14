@@ -352,7 +352,7 @@ int main(void)
             // 5. Mute Logic (Global)
             buzzer_SetByPwrState(pwrsta);
         }
-        if (ETHTimer - last_power_update >= 1000) { // Increase interval to 500ms
+        if (ETHTimer - last_power_update >= 500) { // Increase interval to 500ms
             last_power_update = ETHTimer;
             PowerModule_UpdateStatus();
             
