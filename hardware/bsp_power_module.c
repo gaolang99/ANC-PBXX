@@ -18,7 +18,7 @@ PowerModuleStatus_T g_power_module_status;
 static bool g_psu_enabled[2] = {true, true};
 static bool g_psu_config_dirty = false;
 static uint32_t g_last_psu_config_change_time = 0;
-#define PSU_CONFIG_SAVE_DELAY_MS 50
+#define PSU_CONFIG_SAVE_DELAY_MS 200
 // PMBus ??????
 #define PSU1_ADDRESS 0x58 // ??????? 0xB0 (8-bit) -> 0x58 (7-bit)
 #define PSU2_ADDRESS 0x59 // ??????? 0xB2 (8-bit) -> 0x59 (7-bit)
