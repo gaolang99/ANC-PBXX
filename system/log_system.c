@@ -6,7 +6,7 @@
 #include "web_time_handler.h"
 #include <stdlib.h>
 
-#define LOG_BUFFER_SIZE 8
+#define LOG_BUFFER_SIZE 15
 #define LOG_MESSAGE_MAX 48
 
 /* RAM Buffer */
