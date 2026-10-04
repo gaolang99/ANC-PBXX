@@ -78,7 +78,7 @@ http_conn_state_t* debug_conn_pool_ptr = conn_pool;
 static char g_auth_key[32] = "";
 static uint32_t g_auth_expiry = 0;
 // Default 30s
-#define DEFAULT_SESSION_TIMEOUT_MS 15000
+#define DEFAULT_SESSION_TIMEOUT_MS 30000
 static uint32_t g_session_timeout = DEFAULT_SESSION_TIMEOUT_MS;
 static Whitelist_Rule_T g_whitelist_rules[5];
 
